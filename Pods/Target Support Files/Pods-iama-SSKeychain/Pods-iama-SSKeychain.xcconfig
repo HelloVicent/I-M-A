@@ -1,0 +1,1 @@
+PODS_IAMA_SSKEYCHAIN_OTHER_LDFLAGS = -framework "Foundation" -framework "Security"

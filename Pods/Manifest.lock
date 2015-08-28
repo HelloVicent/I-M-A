@@ -1,0 +1,30 @@
+PODS:
+  - Mantle (2.0.4):
+    - Mantle/extobjc (= 2.0.4)
+  - Mantle/extobjc (2.0.4)
+  - Masonry (0.6.2)
+  - Reachability (3.2)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SSKeychain (1.2.3)
+
+DEPENDENCIES:
+  - Mantle
+  - Masonry
+  - Reachability
+  - ReactiveCocoa
+  - SSKeychain
+
+SPEC CHECKSUMS:
+  Mantle: 6bee68168423948be0c0c5924832bf3af188e099
+  Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
+
+COCOAPODS: 0.37.1

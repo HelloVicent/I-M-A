@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B27B3760-220C-4E6B-BD3D-A66F9C758BA2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iama</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E5BF7ECC037E875C592405E951A4778529EE72EE</key>
+		<string>github.com:HelloVicent/I-M-A.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iama.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E5BF7ECC037E875C592405E951A4778529EE72EE</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:HelloVicent/I-M-A.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E5BF7ECC037E875C592405E951A4778529EE72EE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E5BF7ECC037E875C592405E951A4778529EE72EE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iama</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B1977D6E1589514E154C139 /* libPods-iama.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF509B577D38D738951E35E9 /* libPods-iama.a */; };
 		8DA7767A1B9060A4001D4EF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA776791B9060A4001D4EF6 /* main.m */; };
 		8DA7767D1B9060A4001D4EF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7767C1B9060A4001D4EF6 /* AppDelegate.m */; };
 		8DA776801B9060A4001D4EF6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7767F1B9060A4001D4EF6 /* FirstViewController.m */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2736CB5682868E51734B4F58 /* Pods-iama.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iama.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iama/Pods-iama.debug.xcconfig"; sourceTree = "<group>"; };
 		8DA776741B9060A4001D4EF6 /* iama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iama.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA776781B9060A4001D4EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DA776791B9060A4001D4EF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +45,8 @@
 		8DA776901B9060A4001D4EF6 /* iamaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iamaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA776951B9060A4001D4EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DA776961B9060A4001D4EF6 /* iamaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iamaTests.m; sourceTree = "<group>"; };
+		9085671ED13E2B489F10C93D /* Pods-iama.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iama.release.xcconfig"; path = "Pods/Target Support Files/Pods-iama/Pods-iama.release.xcconfig"; sourceTree = "<group>"; };
+		AF509B577D38D738951E35E9 /* libPods-iama.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iama.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B1977D6E1589514E154C139 /* libPods-iama.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,12 +68,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A954F257A19FD3651F865DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2736CB5682868E51734B4F58 /* Pods-iama.debug.xcconfig */,
+				9085671ED13E2B489F10C93D /* Pods-iama.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		289AC18BB591738A07C87F19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF509B577D38D738951E35E9 /* libPods-iama.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8DA7766B1B9060A4001D4EF6 = {
 			isa = PBXGroup;
 			children = (
 				8DA776761B9060A4001D4EF6 /* iama */,
 				8DA776931B9060A4001D4EF6 /* iamaTests */,
 				8DA776751B9060A4001D4EF6 /* Products */,
+				1A954F257A19FD3651F865DD /* Pods */,
+				289AC18BB591738A07C87F19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DA7769A1B9060A4001D4EF6 /* Build configuration list for PBXNativeTarget "iama" */;
 			buildPhases = (
+				384203758D808AD24CA40EBF /* Check Pods Manifest.lock */,
 				8DA776701B9060A4001D4EF6 /* Sources */,
 				8DA776711B9060A4001D4EF6 /* Frameworks */,
 				8DA776721B9060A4001D4EF6 /* Resources */,
+				2BB7C46496C6ECBD4E58E34A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,6 +244,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BB7C46496C6ECBD4E58E34A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iama/Pods-iama-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		384203758D808AD24CA40EBF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8DA776701B9060A4001D4EF6 /* Sources */ = {
@@ -353,6 +412,7 @@
 		};
 		8DA7769B1B9060A4001D4EF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2736CB5682868E51734B4F58 /* Pods-iama.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iama/Info.plist;
@@ -363,6 +423,7 @@
 		};
 		8DA7769C1B9060A4001D4EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9085671ED13E2B489F10C93D /* Pods-iama.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iama/Info.plist;
@@ -424,6 +485,7 @@
 				8DA7769C1B9060A4001D4EF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DA7769D1B9060A4001D4EF6 /* Build configuration list for PBXNativeTarget "iamaTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +494,7 @@
 				8DA7769F1B9060A4001D4EF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
